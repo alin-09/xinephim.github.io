@@ -21,8 +21,6 @@ Please change the parent <Route path="${S}"> to <Route path="${S==="/"?"*":`${S}
                     left-0 w-full 
                     flex flex-row 
                     items-center
-                    border-b
-                    border-gray-300
                     bg-white
                 `,style:{zIndex:1e3},children:$.jsxs("div",{className:"flex flex-row justify-between sm:justify-start sm:gap-5 items-center w-full",children:[$.jsxs("div",{className:"hidden sm:flex flex-row items-center gap-2 mr-5",children:[$.jsx("img",{src:"/xineico.png",alt:"AppIcon",draggable:!1,className:"w-8"}),$.jsxs("div",{className:"flex flex-col items-start justify-center",children:[$.jsx("h4",{className:"font-bold text-lg mb-0",children:"Xine"}),$.jsx("span",{className:"text-gray-600 text-xs",children:"Xem phim chờ chi"})]})]}),f.map(({label:d,path:h,icon:p})=>{const g=e.pathname===h;return $.jsxs("div",{className:`
                                     group
